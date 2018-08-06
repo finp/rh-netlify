@@ -1,0 +1,29 @@
+runtime:
+  cache_dir: ./.cache/antora
+site:
+  title: Red Hat Documentation Guidelines
+  url: https://redhat-documentation.github.io/
+  start_page: mod-docs::index
+content:
+  sources:
+  - url: ../modular-docs
+    branches: HEAD
+  - url: ../community-collaboration-guide
+    branches: HEAD
+  - url: ../asciidoc-markup-conventions
+    branches: HEAD
+ui:
+  bundle:
+    url: https://github.com/finp/antora-ui/raw/rh/build/ui-bundle.zip
+    snapshot: true
+
+asciidoc:
+  extensions:
+  - ./lib/remote-include-processor
+  attributes:
+    experimental: ''
+    idprefix: ''
+    idseparator: '-'
+    linkattrs: ''
+output:
+  dir: ./public
