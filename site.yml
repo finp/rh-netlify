@@ -11,7 +11,7 @@ content:
   - url: https://github.com/finp/community-collaboration-guide.git
     branches: antora-test
   - url: https://github.com/finp/asciidoc-markup-conventions.git
-    branches: HEAD
+    branches: antora-test
 ui:
   bundle:
     url: https://github.com/finp/antora-ui/raw/rh/build/ui-bundle.zip
