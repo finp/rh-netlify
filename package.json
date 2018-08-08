@@ -1,0 +1,26 @@
+{
+  "name": "rh-netlify",
+  "version": "1.0.0",
+  "description": "= Previewing changes to docs.aerogear.org",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finp/rh-netlify.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/finp/rh-netlify/issues"
+  },
+  "homepage": "https://github.com/finp/rh-netlify#readme",
+  "dependencies": {
+    "@antora/cli": "^1.0.3",
+    "@antora/site-generator-default": "^1.0.3"
+  }
+}
