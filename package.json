@@ -1,13 +1,13 @@
 {
   "name": "rh-netlify",
-  "version": "1.0.0",
+  "version": "2",
   "description": "= Previewing changes to docs.aerogear.org",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/antora --html-url-extension-style=indexify --pull ../site.yml && exit 1"
   },
   "repository": {
     "type": "git",
